@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.sutaotech.androidchat">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.sudaotech.androidchat">
 
     <application
+        android:name="com.sudao.basemodule.base.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppThemeNoActionBar"
+        tools:replace="android:theme">
+        <activity android:name="com.sudaotech.androidchat.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
