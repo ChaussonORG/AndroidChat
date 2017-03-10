@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatLibrary</string>
+    <string name="save_picture">保存图片</string>
+    <string name="picture_have_save">图片已经保存在</string>
+</resources>
